@@ -1,0 +1,36 @@
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 9499b3a20e284ca283f95fb7ebe0d351 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot cpu_tst_behav xil_defaultlib.cpu_tst xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-5021] port 'a' is not connected on this instance [C:/Users/lizheng/Desktop/VivadoLab/LAB10/lab10/cpu_tst.v:30]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.ForwardUnit
+Compiling module xil_defaultlib.IF
+Compiling module xil_defaultlib.CtrSignal
+Compiling module xil_defaultlib.InstrToImm
+Compiling module xil_defaultlib.Regfiles
+Compiling module xil_defaultlib.ID
+Compiling module xil_defaultlib.FA_PG
+Compiling module xil_defaultlib.CLU
+Compiling module xil_defaultlib.CLA_group
+Compiling module xil_defaultlib.CLA_16
+Compiling module xil_defaultlib.Adder32
+Compiling module xil_defaultlib.barrelsft32
+Compiling module xil_defaultlib.ALU32
+Compiling module xil_defaultlib.JumpCtr
+Compiling module xil_defaultlib.NextAddr
+Compiling module xil_defaultlib.EX
+Compiling module xil_defaultlib.M
+Compiling module xil_defaultlib.WB
+Compiling module xil_defaultlib.rv32ip
+Compiling module xil_defaultlib.testmem
+Compiling module xil_defaultlib.testdmem
+Compiling module xil_defaultlib.dmem
+Compiling module xil_defaultlib.cpu_tst
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot cpu_tst_behav

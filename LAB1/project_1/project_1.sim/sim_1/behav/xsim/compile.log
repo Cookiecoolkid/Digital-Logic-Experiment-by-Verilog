@@ -1,0 +1,5 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lizheng/Desktop/VivadoLab/LAB1/lab1/hamming7check.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decode3to8_b2
+INFO: [VRFC 10-311] analyzing module hamming7check
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lizheng/Desktop/VivadoLab/LAB1/lab1/hamming7check_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hamming7check_tb

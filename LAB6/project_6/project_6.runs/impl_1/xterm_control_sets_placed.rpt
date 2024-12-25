@@ -1,0 +1,145 @@
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Thu Nov  2 17:57:35 2023
+| Host         : Cookiecoolkid running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file xterm_control_sets_placed.rpt
+| Design       : xterm
+| Device       : xc7a100t
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    67 |
+|    Minimum number of control sets                        |    67 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |   143 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    67 |
+| >= 0 to < 4        |    11 |
+| >= 4 to < 6        |     4 |
+| >= 6 to < 8        |     1 |
+| >= 8 to < 10       |     3 |
+| >= 10 to < 12      |     3 |
+| >= 12 to < 14      |     2 |
+| >= 14 to < 16      |     0 |
+| >= 16              |    43 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |             115 |           49 |
+| No           | No                    | Yes                    |               8 |            5 |
+| No           | Yes                   | No                     |              64 |           17 |
+| Yes          | No                    | No                     |              38 |           24 |
+| Yes          | No                    | Yes                    |              24 |            8 |
+| Yes          | Yes                   | No                     |              32 |           11 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++------------------------------------------+------------------------------------------------------+--------------------------------------------------+------------------+----------------+--------------+
+|               Clock Signal               |                     Enable Signal                    |                 Set/Reset Signal                 | Slice Load Count | Bel Load Count | Bels / Slice |
++------------------------------------------+------------------------------------------------------+--------------------------------------------------+------------------+----------------+--------------+
+|  CLK50MHZ_BUFG                           | nolabel_line22/keyboard_uut/E[3]                     |                                                  |                1 |              1 |         1.00 |
+|  CLK50MHZ_BUFG                           | nolabel_line22/keyboard_uut/debounce/O01_out         |                                                  |                1 |              1 |         1.00 |
+|  CLK50MHZ_BUFG                           | nolabel_line22/keyboard_uut/debounce/clear           |                                                  |                1 |              1 |         1.00 |
+|  CLK50MHZ_BUFG                           | nolabel_line22/keyboard_uut/debounce/O10_out         |                                                  |                1 |              1 |         1.00 |
+|  CLK50MHZ_BUFG                           | nolabel_line22/keyboard_uut/debounce/Iv1_i_1_n_0     |                                                  |                1 |              1 |         1.00 |
+|  CLK50MHZ_BUFG                           | nolabel_line22/keyboard_uut/E[1]                     |                                                  |                1 |              1 |         1.00 |
+|  CLK50MHZ_BUFG                           | nolabel_line22/keyboard_uut/E[4]                     |                                                  |                1 |              1 |         1.00 |
+|  CLK50MHZ_BUFG                           | nolabel_line22/keyboard_uut/E[2]                     |                                                  |                1 |              1 |         1.00 |
+|  CLK50MHZ_BUFG                           | nolabel_line22/keyboard_uut/E[0]                     |                                                  |                1 |              1 |         1.00 |
+|  CLK50MHZ_BUFG                           | nolabel_line22/keyboard_uut/E[5]                     |                                                  |                1 |              1 |         1.00 |
+|  flag_BUFG                               |                                                      |                                                  |                1 |              2 |         2.00 |
+| ~nolabel_line22/keyboard_uut/debounce/O0 | nolabel_line22/keyboard_uut/cnt                      | nolabel_line22/keyboard_uut/cnt[3]_i_1_n_0       |                1 |              4 |         4.00 |
+|  CLK50MHZ_BUFG                           |                                                      |                                                  |                3 |              4 |         1.33 |
+|  CLK50MHZ_BUFG                           | nolabel_line22/keyboard_uut/debounce/cnt1[4]_i_1_n_0 | nolabel_line22/keyboard_uut/debounce/Iv1_i_1_n_0 |                1 |              5 |         5.00 |
+| ~flag_BUFG                               |                                                      |                                                  |                4 |              5 |         1.25 |
+|  CLK50MHZ_BUFG                           | nolabel_line22/keyboard_uut/LED1                     |                                                  |                7 |              7 |         1.00 |
+|  flag_BUFG                               | nolabel_line22/keyboard_uut/count[7]_i_1_n_0         | BTNC_IBUF                                        |                4 |              8 |         2.00 |
+|  CLK50MHZ_BUFG                           |                                                      | BTNC_IBUF                                        |                5 |              8 |         1.60 |
+| ~nolabel_line22/keyboard_uut/debounce/O0 |                                                      |                                                  |                3 |              9 |         3.00 |
+| ~flag_BUFG                               | nolabel_line22/E[0]                                  |                                                  |                5 |             10 |         2.00 |
+|  flag_BUFG                               | nolabel_line22/keyboard_uut/dataprev[7]_i_1_n_0      |                                                  |                2 |             11 |         5.50 |
+| ~flag_BUFG                               | nolabel_line24/sel                                   | nolabel_line22/E[0]                              |                3 |             11 |         3.67 |
+|  CLK25MHZ                                |                                                      | BTNC_IBUF                                        |                3 |             12 |         4.00 |
+|  CLK25MHZ                                | nolabel_line24/vgactrl/cnt_v[11]_i_1_n_0             | BTNC_IBUF                                        |                6 |             12 |         2.00 |
+|  flag_BUFG                               | nolabel_line22/keyboard_uut/keycode0                 | BTNC_IBUF                                        |                4 |             16 |         4.00 |
+| ~flag_BUFG                               | nolabel_line22/p_0_out__1_16                         |                                                  |                6 |             24 |         4.00 |
+| ~flag_BUFG                               | nolabel_line22/p_0_out__1_19                         |                                                  |                6 |             24 |         4.00 |
+| ~flag_BUFG                               | nolabel_line22/p_0_out__1_11                         |                                                  |                6 |             24 |         4.00 |
+| ~flag_BUFG                               | nolabel_line22/p_0_out__1_0                          |                                                  |                6 |             24 |         4.00 |
+| ~flag_BUFG                               | nolabel_line22/clr_breakcode_reg[0]_3                |                                                  |                6 |             24 |         4.00 |
+| ~flag_BUFG                               | nolabel_line22/p_0_out__1_1                          |                                                  |                6 |             24 |         4.00 |
+| ~flag_BUFG                               | nolabel_line22/p_0_out__1_10                         |                                                  |                6 |             24 |         4.00 |
+| ~flag_BUFG                               | nolabel_line22/p_0_out__1_12                         |                                                  |                6 |             24 |         4.00 |
+| ~flag_BUFG                               | nolabel_line22/p_0_out__1_14                         |                                                  |                6 |             24 |         4.00 |
+| ~flag_BUFG                               | nolabel_line22/p_0_out__1_3                          |                                                  |                6 |             24 |         4.00 |
+| ~flag_BUFG                               | nolabel_line22/p_0_out__1_22                         |                                                  |                6 |             24 |         4.00 |
+| ~flag_BUFG                               | nolabel_line22/p_0_out__1_25                         |                                                  |                6 |             24 |         4.00 |
+| ~flag_BUFG                               | nolabel_line22/p_0_out__1_24                         |                                                  |                6 |             24 |         4.00 |
+| ~flag_BUFG                               | nolabel_line22/p_0_out__1_27                         |                                                  |                6 |             24 |         4.00 |
+| ~flag_BUFG                               | nolabel_line22/p_0_out__1_29                         |                                                  |                6 |             24 |         4.00 |
+| ~flag_BUFG                               | nolabel_line22/p_0_out__1_8                          |                                                  |                6 |             24 |         4.00 |
+| ~flag_BUFG                               | nolabel_line22/p_0_out__1_5                          |                                                  |                6 |             24 |         4.00 |
+| ~flag_BUFG                               | nolabel_line22/p_0_out__1_26                         |                                                  |                6 |             24 |         4.00 |
+| ~flag_BUFG                               | nolabel_line22/p_0_out__1_21                         |                                                  |                6 |             24 |         4.00 |
+| ~flag_BUFG                               | nolabel_line22/p_0_out__1_4                          |                                                  |                6 |             24 |         4.00 |
+| ~flag_BUFG                               | nolabel_line22/p_0_out__1_7                          |                                                  |                6 |             24 |         4.00 |
+| ~flag_BUFG                               | nolabel_line22/p_0_out__1_23                         |                                                  |                6 |             24 |         4.00 |
+| ~flag_BUFG                               | nolabel_line22/p_0_out__1_6                          |                                                  |                6 |             24 |         4.00 |
+| ~flag_BUFG                               | nolabel_line22/p_0_out__1_28                         |                                                  |                6 |             24 |         4.00 |
+| ~flag_BUFG                               | nolabel_line22/p_0_out__1_30                         |                                                  |                6 |             24 |         4.00 |
+| ~flag_BUFG                               | nolabel_line22/p_0_out__1_13                         |                                                  |                6 |             24 |         4.00 |
+| ~flag_BUFG                               | nolabel_line22/p_0_out__1_9                          |                                                  |                6 |             24 |         4.00 |
+| ~flag_BUFG                               | nolabel_line22/clr_breakcode_reg[0]_0                |                                                  |                6 |             24 |         4.00 |
+| ~flag_BUFG                               | nolabel_line22/p_0_out__1_20                         |                                                  |                6 |             24 |         4.00 |
+| ~flag_BUFG                               | nolabel_line22/p_0_out__1_2                          |                                                  |                6 |             24 |         4.00 |
+| ~flag_BUFG                               | nolabel_line22/p_0_out__1_18                         |                                                  |                6 |             24 |         4.00 |
+| ~flag_BUFG                               | nolabel_line22/clr_breakcode_reg[0]_5                |                                                  |                6 |             24 |         4.00 |
+| ~flag_BUFG                               | nolabel_line22/clr_breakcode_reg[0]_4                |                                                  |                6 |             24 |         4.00 |
+| ~flag_BUFG                               | nolabel_line22/clr_breakcode_reg[0]_6                |                                                  |                6 |             24 |         4.00 |
+| ~flag_BUFG                               | nolabel_line22/clr_breakcode_reg[0]_2                |                                                  |                6 |             24 |         4.00 |
+| ~flag_BUFG                               | nolabel_line22/clr_breakcode_reg[0]_1                |                                                  |                6 |             24 |         4.00 |
+| ~flag_BUFG                               | nolabel_line22/p_0_out__1                            |                                                  |                6 |             24 |         4.00 |
+| ~flag_BUFG                               | nolabel_line22/p_0_out__1_17                         |                                                  |                6 |             24 |         4.00 |
+|  CLK100MHZ_IBUF_BUFG                     |                                                      | nolabel_line24/clk_25/clk_25MHz                  |                7 |             26 |         3.71 |
+|  CLK100MHZ_IBUF_BUFG                     |                                                      | nolabel_line24/CLK2HZ                            |                7 |             26 |         3.71 |
+|  CLK100MHZ_IBUF_BUFG                     |                                                      |                                                  |               13 |             29 |         2.23 |
+|  CLK25MHZ                                |                                                      |                                                  |               25 |             66 |         2.64 |
++------------------------------------------+------------------------------------------------------+--------------------------------------------------+------------------+----------------+--------------+
+
+

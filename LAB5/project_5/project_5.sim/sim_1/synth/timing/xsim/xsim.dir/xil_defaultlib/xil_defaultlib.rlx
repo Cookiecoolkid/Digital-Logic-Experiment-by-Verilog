@@ -1,0 +1,7 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+C:/Users/lizheng/Desktop/VivadoLab/LAB5/project_5/project_5.sim/sim_1/synth/timing/xsim/KeyBoardReceiver_tb_time_synth.v,1698219489,verilog,,C:/Users/lizheng/Desktop/VivadoLab/LAB5/project_5/project_5.srcs/sources_1/new/KeyboardSent.v,,KeyBoardReceiver;KeyboardSim;debouncer;glbl;seg7decimal,,,,,,,,
+C:/Users/lizheng/Desktop/VivadoLab/LAB5/project_5/project_5.srcs/sim_1/new/KeyboardReceiver_tb.v,1698202652,verilog,,,,KeyBoardReceiver_tb,,,,,,,,
+C:/Users/lizheng/Desktop/VivadoLab/LAB5/project_5/project_5.srcs/sources_1/new/KeyboardSent.v,1698127267,verilog,,C:/Users/lizheng/Desktop/VivadoLab/LAB5/project_5/project_5.srcs/sim_1/new/KeyboardReceiver_tb.v,,KeyBoardSend,,,,,,,,

@@ -1,0 +1,7 @@
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+ERROR: Funct3,Rs1,Rs2 = 000,9c598438,12153524, want= 4d8e2fe0, got=00000000,err=0.
+ERROR: Funct3,Rs1,Rs2 = 001,9c598438,12153524, want= f8f609f4, got=00000000,err=0.
+ERROR: Funct3,Rs1,Rs2 = 010,9c598438,12153524, want= f8f609f4, got=00000000,err=0.
+ERROR: Funct3,Rs1,Rs2 = 011,9c598438,12153524, want= f8f609f4, got=00000000,err=0.
+ERROR: Funct3,Rs1,Rs2 = 100,9c598438,12153524, want= f8f609f4, got=00000000,err=0.

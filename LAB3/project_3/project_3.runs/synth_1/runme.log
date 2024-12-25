@@ -1,0 +1,260 @@
+
+*** Running vivado
+    with args -log ALU32_top.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source ALU32_top.tcl
+
+
+
+****** Vivado v2020.2 (64-bit)
+  **** SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+  **** IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source ALU32_top.tcl -notrace
+Command: synth_design -top ALU32_top -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 36076
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:01 ; elapsed = 00:00:03 . Memory (MB): peak = 1015.922 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'ALU32_top' [C:/Users/lizheng/Desktop/VivadoLab/LAB3/lab3/ALU32_top.v:23]
+INFO: [Synth 8-6157] synthesizing module 'ALU32' [C:/Users/lizheng/Desktop/VivadoLab/LAB3/lab3/ALU32.v:46]
+INFO: [Synth 8-6157] synthesizing module 'control_sign' [C:/Users/lizheng/Desktop/VivadoLab/LAB3/lab3/ALU32.v:21]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/lizheng/Desktop/VivadoLab/LAB3/lab3/ALU32.v:30]
+INFO: [Synth 8-6155] done synthesizing module 'control_sign' (1#1) [C:/Users/lizheng/Desktop/VivadoLab/LAB3/lab3/ALU32.v:21]
+INFO: [Synth 8-6157] synthesizing module 'Adder32' [C:/Users/lizheng/Desktop/VivadoLab/LAB3/lab3/Adder32.v:23]
+INFO: [Synth 8-6157] synthesizing module 'CLA_16' [C:/Users/lizheng/Desktop/VivadoLab/LAB3/lab3/Adder32.v:39]
+INFO: [Synth 8-6157] synthesizing module 'CLA_group' [C:/Users/lizheng/Desktop/VivadoLab/LAB3/lab3/Adder32.v:57]
+INFO: [Synth 8-6157] synthesizing module 'FA_PG' [C:/Users/lizheng/Desktop/VivadoLab/LAB3/lab3/Adder32.v:87]
+INFO: [Synth 8-6155] done synthesizing module 'FA_PG' (2#1) [C:/Users/lizheng/Desktop/VivadoLab/LAB3/lab3/Adder32.v:87]
+INFO: [Synth 8-6157] synthesizing module 'CLU' [C:/Users/lizheng/Desktop/VivadoLab/LAB3/lab3/Adder32.v:75]
+INFO: [Synth 8-6155] done synthesizing module 'CLU' (3#1) [C:/Users/lizheng/Desktop/VivadoLab/LAB3/lab3/Adder32.v:75]
+INFO: [Synth 8-6155] done synthesizing module 'CLA_group' (4#1) [C:/Users/lizheng/Desktop/VivadoLab/LAB3/lab3/Adder32.v:57]
+INFO: [Synth 8-6155] done synthesizing module 'CLA_16' (5#1) [C:/Users/lizheng/Desktop/VivadoLab/LAB3/lab3/Adder32.v:39]
+INFO: [Synth 8-6155] done synthesizing module 'Adder32' (6#1) [C:/Users/lizheng/Desktop/VivadoLab/LAB3/lab3/Adder32.v:23]
+INFO: [Synth 8-6157] synthesizing module 'barrelsft32' [C:/Users/lizheng/Desktop/VivadoLab/LAB3/lab3/barrelsft32.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'barrelsft32' (7#1) [C:/Users/lizheng/Desktop/VivadoLab/LAB3/lab3/barrelsft32.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/lizheng/Desktop/VivadoLab/LAB3/lab3/ALU32.v:97]
+INFO: [Synth 8-6155] done synthesizing module 'ALU32' (8#1) [C:/Users/lizheng/Desktop/VivadoLab/LAB3/lab3/ALU32.v:46]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/lizheng/Desktop/VivadoLab/LAB3/lab3/ALU32_top.v:52]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/lizheng/Desktop/VivadoLab/LAB3/lab3/ALU32_top.v:62]
+INFO: [Synth 8-6155] done synthesizing module 'ALU32_top' (9#1) [C:/Users/lizheng/Desktop/VivadoLab/LAB3/lab3/ALU32_top.v:23]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:04 . Memory (MB): peak = 1015.922 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:02 ; elapsed = 00:00:04 . Memory (MB): peak = 1015.922 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:02 ; elapsed = 00:00:04 . Memory (MB): peak = 1015.922 ; gain = 0.000
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 1015.922 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/lizheng/Desktop/VivadoLab/LAB3/lab3/ALU32_top.xdc]
+Finished Parsing XDC File [C:/Users/lizheng/Desktop/VivadoLab/LAB3/lab3/ALU32_top.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/lizheng/Desktop/VivadoLab/LAB3/lab3/ALU32_top.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/ALU32_top_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/ALU32_top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1079.355 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1079.355 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:05 ; elapsed = 00:00:08 . Memory (MB): peak = 1079.355 ; gain = 63.434
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:05 ; elapsed = 00:00:08 . Memory (MB): peak = 1079.355 ; gain = 63.434
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:05 ; elapsed = 00:00:08 . Memory (MB): peak = 1079.355 ; gain = 63.434
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-327] inferring latch for variable 'SUBctr_reg' [C:/Users/lizheng/Desktop/VivadoLab/LAB3/lab3/ALU32.v:31]
+WARNING: [Synth 8-327] inferring latch for variable 'SIGctr_reg' [C:/Users/lizheng/Desktop/VivadoLab/LAB3/lab3/ALU32.v:33]
+WARNING: [Synth 8-327] inferring latch for variable 'ALctr_reg' [C:/Users/lizheng/Desktop/VivadoLab/LAB3/lab3/ALU32.v:32]
+WARNING: [Synth 8-327] inferring latch for variable 'SFTctr_reg' [C:/Users/lizheng/Desktop/VivadoLab/LAB3/lab3/ALU32.v:32]
+WARNING: [Synth 8-327] inferring latch for variable 'OPctr_reg' [C:/Users/lizheng/Desktop/VivadoLab/LAB3/lab3/ALU32.v:31]
+WARNING: [Synth 8-327] inferring latch for variable 'result_reg' [C:/Users/lizheng/Desktop/VivadoLab/LAB3/lab3/ALU32.v:98]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:08 . Memory (MB): peak = 1079.355 ; gain = 63.434
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   28 Bit       Adders := 2     
++---XORs : 
+	   2 Input     32 Bit         XORs := 2     
+	   3 Input      1 Bit         XORs := 32    
+	   2 Input      1 Bit         XORs := 3     
++---Registers : 
+	               28 Bit    Registers := 2     
+	                8 Bit    Registers := 1     
+	                7 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
++---Muxes : 
+	   2 Input   32 Bit        Muxes := 3     
+	   2 Input   28 Bit        Muxes := 1     
+	   2 Input    8 Bit        Muxes := 1     
+	   8 Input    8 Bit        Muxes := 1     
+	  12 Input    4 Bit        Muxes := 1     
+	  12 Input    1 Bit        Muxes := 7     
+	   2 Input    1 Bit        Muxes := 4     
+	   8 Input    1 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:06 ; elapsed = 00:00:11 . Memory (MB): peak = 1079.355 ; gain = 63.434
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:09 ; elapsed = 00:00:15 . Memory (MB): peak = 1079.355 ; gain = 63.434
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:09 ; elapsed = 00:00:15 . Memory (MB): peak = 1079.355 ; gain = 63.434
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:09 ; elapsed = 00:00:15 . Memory (MB): peak = 1079.355 ; gain = 63.434
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:11 ; elapsed = 00:00:17 . Memory (MB): peak = 1079.355 ; gain = 63.434
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:11 ; elapsed = 00:00:17 . Memory (MB): peak = 1079.355 ; gain = 63.434
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:11 ; elapsed = 00:00:17 . Memory (MB): peak = 1079.355 ; gain = 63.434
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:11 ; elapsed = 00:00:17 . Memory (MB): peak = 1079.355 ; gain = 63.434
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:11 ; elapsed = 00:00:17 . Memory (MB): peak = 1079.355 ; gain = 63.434
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:11 ; elapsed = 00:00:17 . Memory (MB): peak = 1079.355 ; gain = 63.434
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     2|
+|2     |CARRY4 |    14|
+|3     |LUT1   |     3|
+|4     |LUT2   |     8|
+|5     |LUT3   |    12|
+|6     |LUT4   |    39|
+|7     |LUT5   |    42|
+|8     |LUT6   |   143|
+|9     |MUXF7  |    18|
+|10    |MUXF8  |     7|
+|11    |FDRE   |    68|
+|12    |FDSE   |     7|
+|13    |LD     |    39|
+|14    |IBUF   |    13|
+|15    |OBUF   |    32|
++------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:11 ; elapsed = 00:00:17 . Memory (MB): peak = 1079.355 ; gain = 63.434
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 6 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:08 ; elapsed = 00:00:16 . Memory (MB): peak = 1079.355 ; gain = 0.000
+Synthesis Optimization Complete : Time (s): cpu = 00:00:11 ; elapsed = 00:00:17 . Memory (MB): peak = 1079.355 ; gain = 63.434
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 1083.438 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 78 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1087.215 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 39 instances were transformed.
+  LD => LDCE: 39 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+37 Infos, 6 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:14 ; elapsed = 00:00:23 . Memory (MB): peak = 1087.215 ; gain = 71.293
+INFO: [Common 17-1381] The checkpoint 'C:/Users/lizheng/Desktop/VivadoLab/LAB3/project_3/project_3.runs/synth_1/ALU32_top.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file ALU32_top_utilization_synth.rpt -pb ALU32_top_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sun Oct  8 21:01:30 2023...

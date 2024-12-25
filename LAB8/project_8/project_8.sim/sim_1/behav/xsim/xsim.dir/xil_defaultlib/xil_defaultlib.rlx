@@ -1,0 +1,18 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+C:/Users/lizheng/Desktop/VivadoLab/LAB8/lab8/ALU32.v,1701104317,verilog,,C:/Users/lizheng/Desktop/VivadoLab/LAB8/lab8/Adder32.v,,ALU32,,,,,,,,
+C:/Users/lizheng/Desktop/VivadoLab/LAB8/lab8/Adder32.v,1699789302,verilog,,C:/Users/lizheng/Desktop/VivadoLab/LAB8/lab8/BranchControl.v,,Adder32;CLA_16;CLA_group;CLU;FA_PG,,,,,,,,
+C:/Users/lizheng/Desktop/VivadoLab/LAB8/lab8/BranchControl.v,1701102731,verilog,,C:/Users/lizheng/Desktop/VivadoLab/LAB8/lab8/Control.v,,BranchControl,,,,,,,,
+C:/Users/lizheng/Desktop/VivadoLab/LAB8/lab8/Control.v,1701157764,verilog,,C:/Users/lizheng/Desktop/VivadoLab/LAB8/lab8/DataMem.v,,Control,,,,,,,,
+C:/Users/lizheng/Desktop/VivadoLab/LAB8/lab8/DataMem.v,1701103828,verilog,,C:/Users/lizheng/Desktop/VivadoLab/LAB8/lab8/InstrMem.v,,DataMem,,,,,,,,
+C:/Users/lizheng/Desktop/VivadoLab/LAB8/lab8/InstrMem.v,1701156387,verilog,,C:/Users/lizheng/Desktop/VivadoLab/LAB8/lab8/InstrParse.v,,InstrMem,,,,,,,,
+C:/Users/lizheng/Desktop/VivadoLab/LAB8/lab8/InstrParse.v,1699945048,verilog,,C:/Users/lizheng/Desktop/VivadoLab/LAB8/lab8/InstrToImm.v,,InstrParse,,,,,,,,
+C:/Users/lizheng/Desktop/VivadoLab/LAB8/lab8/InstrToImm.v,1701103677,verilog,,C:/Users/lizheng/Desktop/lab8/SingleCycleCPU.v,,InstrToImm,,,,,,,,
+C:/Users/lizheng/Desktop/VivadoLab/LAB8/lab8/SingleCycleCPU_tb.v,1701102532,verilog,,,,SingleCycleCPU_tb,,,,,,,,
+C:/Users/lizheng/Desktop/VivadoLab/LAB8/lab8/barrelsft32.v,1699944962,verilog,,C:/Users/lizheng/Desktop/VivadoLab/LAB8/lab8/nextPC.v,,barrelsft32,,,,,,,,
+C:/Users/lizheng/Desktop/VivadoLab/LAB8/lab8/nextPC.v,1701101184,verilog,,C:/Users/lizheng/Desktop/VivadoLab/LAB8/lab8/regfile32.v,,nextPC,,,,,,,,
+C:/Users/lizheng/Desktop/VivadoLab/LAB8/lab8/regfile32.v,1701159950,verilog,,C:/Users/lizheng/Desktop/VivadoLab/LAB8/lab8/SingleCycleCPU_tb.v,,regfile32,,,,,,,,
+C:/Users/lizheng/Desktop/VivadoLab/LAB8/project_8/project_8.sim/sim_1/behav/xsim/glbl.v,1605673889,verilog,,,,glbl,,,,,,,,
+C:/Users/lizheng/Desktop/lab8/SingleCycleCPU.v,1701159950,verilog,,C:/Users/lizheng/Desktop/VivadoLab/LAB8/lab8/barrelsft32.v,,SingleCycleCPU,,,,,,,,

@@ -1,0 +1,30 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lizheng/Desktop/VivadoLab/LAB8/lab8/ALU32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lizheng/Desktop/VivadoLab/LAB8/lab8/Adder32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Adder32
+INFO: [VRFC 10-311] analyzing module CLA_16
+INFO: [VRFC 10-311] analyzing module CLA_group
+INFO: [VRFC 10-311] analyzing module CLU
+INFO: [VRFC 10-311] analyzing module FA_PG
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lizheng/Desktop/VivadoLab/LAB8/lab8/BranchControl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BranchControl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lizheng/Desktop/VivadoLab/LAB8/lab8/Control.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Control
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lizheng/Desktop/VivadoLab/LAB8/lab8/DataMem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataMem
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lizheng/Desktop/VivadoLab/LAB8/lab8/InstrMem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module InstrMem
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lizheng/Desktop/VivadoLab/LAB8/lab8/InstrParse.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module InstrParse
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lizheng/Desktop/VivadoLab/LAB8/lab8/InstrToImm.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module InstrToImm
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lizheng/Desktop/lab8/SingleCycleCPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SingleCycleCPU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lizheng/Desktop/VivadoLab/LAB8/lab8/barrelsft32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module barrelsft32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lizheng/Desktop/VivadoLab/LAB8/lab8/nextPC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module nextPC
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lizheng/Desktop/VivadoLab/LAB8/lab8/regfile32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regfile32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lizheng/Desktop/VivadoLab/LAB8/lab8/SingleCycleCPU_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SingleCycleCPU_tb

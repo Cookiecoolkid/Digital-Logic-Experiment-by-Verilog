@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lizheng/Desktop/VivadoLab/LAB7/lab7/mem32b.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mem32b
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lizheng/Desktop/VivadoLab/LAB7/lab7/men32b_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module men32b_tb

@@ -1,0 +1,25 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+C:/Users/lizheng/Desktop/VivadoLab/LAB10/lab10/ALU32.v,1702039815,verilog,,C:/Users/lizheng/Desktop/VivadoLab/LAB10/lab10/Adder32.v,,ALU32,,,,,,,,
+C:/Users/lizheng/Desktop/VivadoLab/LAB10/lab10/Adder32.v,1699789302,verilog,,C:/Users/lizheng/Desktop/VivadoLab/LAB10/lab10/BranchControl.v,,Adder32;CLA_16;CLA_group;CLU;FA_PG,,,,,,,,
+C:/Users/lizheng/Desktop/VivadoLab/LAB10/lab10/BranchControl.v,1702216716,verilog,,C:/Users/lizheng/Desktop/VivadoLab/LAB10/lab10/Control.v,,JumpCtr,,,,,,,,
+C:/Users/lizheng/Desktop/VivadoLab/LAB10/lab10/Control.v,1702216327,verilog,,C:/Users/lizheng/Desktop/VivadoLab/LAB10/project_10/project_10.srcs/sources_1/new/EX.v,,CtrSignal,,,,,,,,
+C:/Users/lizheng/Desktop/VivadoLab/LAB10/lab10/InstrParse.v,1701707391,verilog,,C:/Users/lizheng/Desktop/VivadoLab/LAB10/lab10/InstrToImm.v,,InstrParse,,,,,,,,
+C:/Users/lizheng/Desktop/VivadoLab/LAB10/lab10/InstrToImm.v,1702037578,verilog,,C:/Users/lizheng/Desktop/VivadoLab/LAB10/project_10/project_10.srcs/sources_1/new/MEM.v,,InstrToImm,,,,,,,,
+C:/Users/lizheng/Desktop/VivadoLab/LAB10/lab10/barrelsft32.v,1699944962,verilog,,C:/Users/lizheng/Desktop/VivadoLab/LAB10/lab10/dmem.v,,barrelsft32,,,,,,,,
+C:/Users/lizheng/Desktop/VivadoLab/LAB10/lab10/cpu_tst.v,1702223874,verilog,,,,cpu_tst,,,,,,,,
+C:/Users/lizheng/Desktop/VivadoLab/LAB10/lab10/dmem.v,1700636284,verilog,,C:/Users/lizheng/Desktop/VivadoLab/LAB10/lab10/nextPC.v,,dmem,,,,,,,,
+C:/Users/lizheng/Desktop/VivadoLab/LAB10/lab10/nextPC.v,1702217290,verilog,,C:/Users/lizheng/Desktop/VivadoLab/LAB10/lab10/regfile32.v,,NextAddr,,,,,,,,
+C:/Users/lizheng/Desktop/VivadoLab/LAB10/lab10/regfile32.v,1702361628,verilog,,C:/Users/lizheng/Desktop/VivadoLab/LAB10/lab10/rv32ip.v,,Regfiles,,,,,,,,
+C:/Users/lizheng/Desktop/VivadoLab/LAB10/lab10/rv32ip.v,1702283419,verilog,,C:/Users/lizheng/Desktop/VivadoLab/LAB10/lab10/testdmem.v,,rv32ip,,,,,,,,
+C:/Users/lizheng/Desktop/VivadoLab/LAB10/lab10/testdmem.v,1702211855,verilog,,C:/Users/lizheng/Desktop/VivadoLab/LAB10/lab10/testmem.v,,testdmem,,,,,,,,
+C:/Users/lizheng/Desktop/VivadoLab/LAB10/lab10/testmem.v,1702283690,verilog,,C:/Users/lizheng/Desktop/VivadoLab/LAB10/lab10/cpu_tst.v,,testmem,,,,,,,,
+C:/Users/lizheng/Desktop/VivadoLab/LAB10/project_10/project_10.sim/sim_1/behav/xsim/glbl.v,1605673889,verilog,,,,glbl,,,,,,,,
+C:/Users/lizheng/Desktop/VivadoLab/LAB10/project_10/project_10.srcs/sources_1/new/EX.v,1702305668,verilog,,C:/Users/lizheng/Desktop/VivadoLab/LAB10/project_10/project_10.srcs/sources_1/new/ForwardUnit.v,,EX,,,,,,,,
+C:/Users/lizheng/Desktop/VivadoLab/LAB10/project_10/project_10.srcs/sources_1/new/ForwardUnit.v,1702215084,verilog,,C:/Users/lizheng/Desktop/VivadoLab/LAB10/project_10/project_10.srcs/sources_1/new/ID.v,,ForwardUnit,,,,,,,,
+C:/Users/lizheng/Desktop/VivadoLab/LAB10/project_10/project_10.srcs/sources_1/new/ID.v,1702306444,verilog,,C:/Users/lizheng/Desktop/VivadoLab/LAB10/project_10/project_10.srcs/sources_1/new/IF.v,,ID,,,,,,,,
+C:/Users/lizheng/Desktop/VivadoLab/LAB10/project_10/project_10.srcs/sources_1/new/IF.v,1702306621,verilog,,C:/Users/lizheng/Desktop/VivadoLab/LAB10/lab10/InstrToImm.v,,IF,,,,,,,,
+C:/Users/lizheng/Desktop/VivadoLab/LAB10/project_10/project_10.srcs/sources_1/new/MEM.v,1702213386,verilog,,C:/Users/lizheng/Desktop/VivadoLab/LAB10/project_10/project_10.srcs/sources_1/new/WB.v,,M,,,,,,,,
+C:/Users/lizheng/Desktop/VivadoLab/LAB10/project_10/project_10.srcs/sources_1/new/WB.v,1702215271,verilog,,C:/Users/lizheng/Desktop/VivadoLab/LAB10/lab10/barrelsft32.v,,WB,,,,,,,,

@@ -1,0 +1,10 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+C:/Users/lizheng/Desktop/VivadoLab/LAB3/lab3/ALU32.v,1696770058,verilog,,C:/Users/lizheng/Desktop/VivadoLab/LAB3/lab3/Adder32.v,,ALU32;control_sign,,,,,,,,
+C:/Users/lizheng/Desktop/VivadoLab/LAB3/lab3/ALU32_tb.v,1696390716,verilog,,,,ALU32_tb,,,,,,,,
+C:/Users/lizheng/Desktop/VivadoLab/LAB3/lab3/ALU32_top.v,1696440501,verilog,,,,ALU32_top,,,,,,,,
+C:/Users/lizheng/Desktop/VivadoLab/LAB3/lab3/Adder32.v,1696600697,verilog,,C:/Users/lizheng/Desktop/VivadoLab/LAB3/lab3/barrelsft32.v,,Adder32;CLA_16;CLA_group;CLU;FA_PG,,,,,,,,
+C:/Users/lizheng/Desktop/VivadoLab/LAB3/lab3/barrelsft32.v,1696599352,verilog,,C:/Users/lizheng/Desktop/VivadoLab/LAB3/lab3/ALU32_tb.v,,barrelsft32,,,,,,,,
+C:/Users/lizheng/Desktop/VivadoLab/LAB3/project_3/project_3.sim/sim_1/behav/xsim/glbl.v,1605673889,verilog,,,,glbl,,,,,,,,

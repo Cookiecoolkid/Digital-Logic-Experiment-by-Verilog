@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lizheng/Desktop/VivadoLab/LAB2/lab2/DigitalTimer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DigitalTimer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/lizheng/Desktop/VivadoLab/LAB2/project_2/project_2.srcs/sim_1/new/DigitalTimer_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DigitalTimer_tb

@@ -1,0 +1,87 @@
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+~~~ Begin test case      add ~~~
+~~~ OK: end of cycle   5 reg 06 need to be 00000064, get 00000064
+~~~ OK: end of cycle   6 reg 07 need to be 00000014, get 00000014
+~~~ OK: end of cycle   7 reg 1c need to be 00000078, get 00000078
+~~~ Begin test case      alu ~~~
+~~~ OK: end of cycle   5 reg 06 need to be 0000004f, get 0000004f
+~~~ OK: end of cycle   6 reg 07 need to be 00000003, get 00000003
+~~~ OK: end of cycle   7 reg 1c need to be 0000004c, get 0000004c
+~~~ OK: end of cycle   8 reg 1c need to be 00000003, get 00000003
+~~~ OK: end of cycle   9 reg 1c need to be 00000278, get 00000278
+~~~ OK: end of cycle  10 reg 1c need to be 00000000, get 00000000
+~~~ OK: end of cycle  11 reg 1c need to be 00000001, get 00000001
+~~~ OK: end of cycle  12 reg 1c need to be 0000004c, get 0000004c
+~~~ OK: end of cycle  13 reg 1c need to be 00000009, get 00000009
+~~~ OK: end of cycle  14 reg 1c need to be 0000004f, get 0000004f
+~~~ OK: end of cycle  15 reg 06 need to be ffffffb1, get ffffffb1
+~~~ OK: end of cycle  16 reg 1c need to be ffffffb4, get ffffffb4
+~~~ OK: end of cycle  17 reg 1c need to be fffffff6, get fffffff6
+~~~ OK: end of cycle  18 reg 1c need to be 1ffffff6, get 1ffffff6
+~~~ OK: end of cycle  19 reg 1c need to be 00000001, get 00000001
+~~~ OK: end of cycle  20 reg 1c need to be 00000000, get 00000000
+~~~ Begin test case      mem ~~~
+~~~ OK: end of cycle   5 reg 0a need to be 00008000, get 00008000
+~~~ OK: end of cycle   6 reg 0a need to be 00008010, get 00008010
+~~~ OK: end of cycle   7 reg 06 need to be 000004d2, get 000004d2
+~~~ OK: end of cycle   8 mem addr= 00008014 need to be 000004d2, get 000004d2
+~~~ OK: end of cycle   9 reg 07 need to be 000004d2, get 000004d2
+~~~ OK: end of cycle  10 mem addr= 00008018 need to be 00000000, get 00000000
+~~~ OK: end of cycle  11 reg 06 need to be 000000ff, get 000000ff
+~~~ OK: end of cycle  12 mem addr= 00008018 need to be 000000ff, get 000000ff
+~~~ OK: end of cycle  13 reg 07 need to be ffffffff, get ffffffff
+~~~ OK: end of cycle  14 reg 07 need to be 000000ff, get 000000ff
+~~~ OK: end of cycle  15 mem addr= 00008018 need to be 0000ffff, get 0000ffff
+~~~ OK: end of cycle  16 reg 07 need to be ffffffff, get ffffffff
+~~~ OK: end of cycle  17 reg 07 need to be 0000ffff, get 0000ffff
+~~~ OK: end of cycle  18 reg 07 need to be ffffffff, get ffffffff
+~~~ OK: end of cycle  19 reg 07 need to be 00000000, get 00000000
+~~~ OK: end of cycle  20 mem addr= 0000801c need to be 00000000, get 00000000
+~~~ OK: end of cycle  21 reg 06 need to be 00000078, get 00000078
+~~~ OK: end of cycle  22 mem addr= 0000801c need to be 00000078, get 00000078
+~~~ OK: end of cycle  23 reg 06 need to be 00000056, get 00000056
+~~~ OK: end of cycle  24 mem addr= 0000801c need to be 00005678, get 00005678
+~~~ OK: end of cycle  25 reg 06 need to be 00000034, get 00000034
+~~~ OK: end of cycle  26 mem addr= 0000801c need to be 00345678, get 00345678
+~~~ OK: end of cycle  27 reg 06 need to be 00000012, get 00000012
+~~~ OK: end of cycle  28 mem addr= 0000801c need to be 12345678, get 12345678
+~~~ OK: end of cycle  29 reg 07 need to be 12345678, get 12345678
+~~~ OK: end of cycle  30 reg 1c need to be 00000034, get 00000034
+~~~ OK: end of cycle  32 mem addr= 00008024 need to be 00000034, get 00000034
+~~~ OK: end of cycle  33 reg 0b need to be 00008020, get 00008020
+~~~ OK: end of cycle  34 reg 1c need to be 00000012, get 00000012
+~~~ OK: end of cycle  35 mem addr= 00008024 need to be 00000012, get 00000012
+~~~ Begin test case   branch ~~~
+~~~ OK: end of cycle   1 PC/dbgdata need to be 00000004, get 00000004
+~~~ OK: end of cycle   2 PC/dbgdata need to be 00000008, get 00000008
+~~~ OK: end of cycle   3 PC/dbgdata need to be 0000000c, get 0000000c
+~~~ OK: end of cycle   4 PC/dbgdata need to be 00000010, get 00000010
+~~~ OK: end of cycle   5 reg 05 need to be 00000064, get 00000064
+~~~ OK: end of cycle   5 PC/dbgdata need to be 00000014, get 00000014
+~~~ OK: end of cycle   6 reg 06 need to be fffffffe, get fffffffe
+~~~ OK: end of cycle   6 PC/dbgdata need to be 00000014, get 00000014
+~~~ OK: end of cycle   7 PC/dbgdata need to be 00000018, get 00000018
+~~~ OK: end of cycle   8 PC/dbgdata need to be 0000001c, get 0000001c
+~~~ OK: end of cycle   9 PC/dbgdata need to be 00000020, get 00000020
+~~~ OK: end of cycle  10 PC/dbgdata need to be 00000024, get 00000024
+~~~ OK: end of cycle  11 PC/dbgdata need to be 00000024, get 00000024
+~~~ OK: end of cycle  12 PC/dbgdata need to be 00000028, get 00000028
+~~~ OK: end of cycle  13 PC/dbgdata need to be 0000002c, get 0000002c
+~~~ OK: end of cycle  14 PC/dbgdata need to be 00000030, get 00000030
+~~~ OK: end of cycle  15 PC/dbgdata need to be 00000044, get 00000044
+~~~ OK: end of cycle  16 PC/dbgdata need to be 00000048, get 00000048
+~~~ OK: end of cycle  17 reg 01 need to be 0000002c, get 0000002c
+~~~ OK: end of cycle  17 PC/dbgdata need to be 0000004c, get 0000004c
+~~~ OK: end of cycle  18 PC/dbgdata need to be 00000050, get 00000050
+~~~ OK: end of cycle  19 PC/dbgdata need to be 00000038, get 00000038
+~~~ OK: end of cycle  20 reg 05 need to be 0000007b, get 0000007b
+~~~ OK: end of cycle  20 PC/dbgdata need to be 0000003c, get 0000003c
+~~~ OK: end of cycle  21 PC/dbgdata need to be 00000040, get 00000040
+~~~ OK: end of cycle  22 PC/dbgdata need to be 00000044, get 00000044
+~~~ OK: end of cycle  23 PC/dbgdata need to be 00000048, get 00000048
+~~~ OK: end of cycle  24 PC/dbgdata need to be 0000004c, get 0000004c
+~~~ OK: end of cycle  25 PC/dbgdata need to be 00000050, get 00000050
+~~~ OK: end of cycle  25 reg 0a need to be 00c0ffee, get 00c0ffee
+~~~ OK: end of cycle  26 PC/dbgdata need to be 00000054, get 00000054
+$stop called at time : 2044 ns : File "C:/Users/lizheng/Desktop/VivadoLab/LAB10/lab10/cpu_tst.v" Line 439

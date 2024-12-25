@@ -1,0 +1,13 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+C:/Users/lizheng/Desktop/VivadoLab/LAB2/lab2/DigitalTimer.v,1695720702,verilog,,C:/Users/lizheng/Desktop/VivadoLab/LAB2/project_2/project_2.srcs/sim_1/new/DigitalTimer_tb.v,,DigitalTimer,,,,,,,,
+C:/Users/lizheng/Desktop/VivadoLab/LAB2/lab2/encryption6b.v,1695710883,verilog,,C:/Users/lizheng/Desktop/encryption6b_tb.v,,encryption6b;lfsr,,,,,,,,
+C:/Users/lizheng/Desktop/VivadoLab/LAB2/lab2/encryption6b_tb.v,1694941600,verilog,,C:/Users/lizheng/Desktop/VivadoLab/LAB2/lab2/DigitalTimer.v,,,,,,,,,,
+C:/Users/lizheng/Desktop/VivadoLab/LAB2/lab2/regfile32.v,1695569642,verilog,,C:/Users/lizheng/Desktop/VivadoLab/LAB2/lab2/regfile32_tb.v,,regfile32,,,,,,,,
+C:/Users/lizheng/Desktop/VivadoLab/LAB2/lab2/regfile32_tb.v,1694921516,verilog,,C:/Users/lizheng/Desktop/VivadoLab/LAB2/lab2/regfile_top.v,,regfile32_tb,,,,,,,,
+C:/Users/lizheng/Desktop/VivadoLab/LAB2/lab2/regfile_top.v,1695561351,verilog,,,,regfile_top,,,,,,,,
+C:/Users/lizheng/Desktop/VivadoLab/LAB2/project_2/project_2.sim/sim_1/behav/xsim/glbl.v,1605673889,verilog,,,,glbl,,,,,,,,
+C:/Users/lizheng/Desktop/VivadoLab/LAB2/project_2/project_2.srcs/sim_1/new/DigitalTimer_tb.v,1695720894,verilog,,C:/Users/lizheng/Desktop/VivadoLab/LAB2/lab2/encryption6b.v,,DigitalTimer_tb,,,,,,,,
+,,,,,,,,,,,,,,

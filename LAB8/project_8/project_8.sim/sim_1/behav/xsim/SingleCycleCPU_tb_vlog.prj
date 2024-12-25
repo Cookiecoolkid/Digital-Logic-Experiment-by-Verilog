@@ -1,0 +1,21 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../../lab8/ALU32.v" \
+"../../../../../lab8/Adder32.v" \
+"../../../../../lab8/BranchControl.v" \
+"../../../../../lab8/Control.v" \
+"../../../../../lab8/DataMem.v" \
+"../../../../../lab8/InstrMem.v" \
+"../../../../../lab8/InstrParse.v" \
+"../../../../../lab8/InstrToImm.v" \
+"../../../../../../../lab8/SingleCycleCPU.v" \
+"../../../../../lab8/barrelsft32.v" \
+"../../../../../lab8/nextPC.v" \
+"../../../../../lab8/regfile32.v" \
+"../../../../../lab8/SingleCycleCPU_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

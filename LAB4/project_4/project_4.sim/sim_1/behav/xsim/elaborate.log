@@ -1,0 +1,27 @@
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto f79a36b56a044ff9b50894af70f384ae --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot rv32m_tb_behav xil_defaultlib.rv32m_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'sub' [C:/Users/lizheng/Desktop/VivadoLab/LAB4/lab4/mul_32u.v:41]
+WARNING: [VRFC 10-3091] actual bit length 63 differs from formal bit length 32 for port 'y' [C:/Users/lizheng/Desktop/VivadoLab/LAB4/lab4/rv32m.v:48]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'sub' [C:/Users/lizheng/Desktop/VivadoLab/LAB4/lab4/div_32u.v:49]
+WARNING: [VRFC 10-526] concatenation with unsized literal; will interpret as 32 bits [C:/Users/lizheng/Desktop/VivadoLab/LAB4/lab4/rv32m.v:48]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.FA_PG
+Compiling module xil_defaultlib.CLU
+Compiling module xil_defaultlib.CLA_group
+Compiling module xil_defaultlib.CLA_16
+Compiling module xil_defaultlib.Adder32
+Compiling module xil_defaultlib.mul_32u
+Compiling module xil_defaultlib.mul_32b
+Compiling module xil_defaultlib.div_32u
+Compiling module xil_defaultlib.div_32b
+Compiling module xil_defaultlib.rv32m
+Compiling module xil_defaultlib.rv32m_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot rv32m_tb_behav

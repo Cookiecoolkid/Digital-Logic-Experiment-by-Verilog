@@ -1,0 +1,16 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+C:/Users/lizheng/Desktop/VivadoLab/LAB4/lab4/Adder32.v,1694963476,verilog,,C:/Users/lizheng/Desktop/VivadoLab/LAB4/lab4/div_32b.v,,Adder32;CLA_16;CLA_group;CLU;FA_PG,,,,,,,,
+C:/Users/lizheng/Desktop/VivadoLab/LAB4/lab4/div_32b.v,1697524153,verilog,,C:/Users/lizheng/Desktop/VivadoLab/LAB4/lab4/div_32u.v,,div_32b,,,,,,,,
+C:/Users/lizheng/Desktop/VivadoLab/LAB4/lab4/div_32u.v,1697441883,verilog,,C:/Users/lizheng/Desktop/VivadoLab/LAB4/lab4/mul_32b.v,,div_32u,,,,,,,,
+C:/Users/lizheng/Desktop/VivadoLab/LAB4/lab4/mul_32b.v,1697456294,verilog,,C:/Users/lizheng/Desktop/VivadoLab/LAB4/lab4/mul_32u.v,,mul_32b,,,,,,,,
+C:/Users/lizheng/Desktop/VivadoLab/LAB4/lab4/mul_32b_tb.v,1697453666,verilog,,,,mul_32b_tb,,,,,,,,
+C:/Users/lizheng/Desktop/VivadoLab/LAB4/lab4/mul_32k.v,1697529533,verilog,,C:/Users/lizheng/Desktop/VivadoLab/LAB4/lab4/mul_32k_tb.v,,mul_32k,,,,,,,,
+C:/Users/lizheng/Desktop/VivadoLab/LAB4/lab4/mul_32k_tb.v,1696216498,verilog,,,,mul_32k_tb,,,,,,,,
+C:/Users/lizheng/Desktop/VivadoLab/LAB4/lab4/mul_32u.v,1697418360,verilog,,C:/Users/lizheng/Desktop/VivadoLab/LAB4/lab4/rv32m.v,,mul_32u,,,,,,,,
+C:/Users/lizheng/Desktop/VivadoLab/LAB4/lab4/rv32m.v,1697531472,verilog,,C:/Users/lizheng/Desktop/VivadoLab/LAB4/lab4/rv32m_tb.v,,rv32m,,,,,,,,
+C:/Users/lizheng/Desktop/VivadoLab/LAB4/lab4/rv32m_tb.v,1697531247,verilog,,,,rv32m_tb,,,,,,,,
+C:/Users/lizheng/Desktop/VivadoLab/LAB4/project_4/project_4.sim/sim_1/behav/xsim/glbl.v,1605673889,verilog,,,,glbl,,,,,,,,
+C:/Users/lizheng/Desktop/VivadoLab/LAB4/project_4/project_4.srcs/sim_1/new/div_32b_tb.v,1697524153,verilog,,,,div_32b_tb,,,,,,,,

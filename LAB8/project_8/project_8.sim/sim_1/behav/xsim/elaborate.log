@@ -1,0 +1,33 @@
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto e58b5665d30545f4aca7a77c5695fc2b --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot SingleCycleCPU_tb_behav xil_defaultlib.SingleCycleCPU_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 16 differs from formal bit length 32 for port 'dbgdata' [C:/Users/lizheng/Desktop/VivadoLab/LAB8/lab8/SingleCycleCPU_tb.v:26]
+WARNING: [VRFC 10-3091] actual bit length 7 differs from formal bit length 8 for port 'funct7' [C:/Users/lizheng/Desktop/lab8/SingleCycleCPU.v:45]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 16 for port 'addr' [C:/Users/lizheng/Desktop/VivadoLab/LAB8/lab8/SingleCycleCPU_tb.v:35]
+WARNING: [VRFC 10-5021] port 'a0' is not connected on this instance [C:/Users/lizheng/Desktop/VivadoLab/LAB8/lab8/SingleCycleCPU_tb.v:22]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.InstrParse
+Compiling module xil_defaultlib.Control
+Compiling module xil_defaultlib.InstrToImm
+Compiling module xil_defaultlib.regfile32
+Compiling module xil_defaultlib.FA_PG
+Compiling module xil_defaultlib.CLU
+Compiling module xil_defaultlib.CLA_group
+Compiling module xil_defaultlib.CLA_16
+Compiling module xil_defaultlib.Adder32
+Compiling module xil_defaultlib.barrelsft32
+Compiling module xil_defaultlib.ALU32
+Compiling module xil_defaultlib.BranchControl
+Compiling module xil_defaultlib.nextPC
+Compiling module xil_defaultlib.SingleCycleCPU
+Compiling module xil_defaultlib.InstrMem
+Compiling module xil_defaultlib.DataMem
+Compiling module xil_defaultlib.SingleCycleCPU_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot SingleCycleCPU_tb_behav

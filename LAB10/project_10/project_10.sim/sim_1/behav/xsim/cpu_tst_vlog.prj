@@ -1,0 +1,27 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../../lab10/ALU32.v" \
+"../../../../../lab10/Adder32.v" \
+"../../../../../lab10/BranchControl.v" \
+"../../../../../lab10/Control.v" \
+"../../../../project_10.srcs/sources_1/new/EX.v" \
+"../../../../project_10.srcs/sources_1/new/ForwardUnit.v" \
+"../../../../project_10.srcs/sources_1/new/ID.v" \
+"../../../../project_10.srcs/sources_1/new/IF.v" \
+"../../../../../lab10/InstrToImm.v" \
+"../../../../project_10.srcs/sources_1/new/MEM.v" \
+"../../../../project_10.srcs/sources_1/new/WB.v" \
+"../../../../../lab10/barrelsft32.v" \
+"../../../../../lab10/dmem.v" \
+"../../../../../lab10/nextPC.v" \
+"../../../../../lab10/regfile32.v" \
+"../../../../../lab10/rv32ip.v" \
+"../../../../../lab10/testdmem.v" \
+"../../../../../lab10/testmem.v" \
+"../../../../../lab10/cpu_tst.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

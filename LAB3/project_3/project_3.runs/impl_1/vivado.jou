@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sun Oct  8 21:03:11 2023
+# Process ID: 29452
+# Current directory: C:/Users/lizheng/Desktop/VivadoLab/LAB3/project_3/project_3.runs/impl_1
+# Command line: vivado.exe -log ALU32_top.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source ALU32_top.tcl -notrace
+# Log file: C:/Users/lizheng/Desktop/VivadoLab/LAB3/project_3/project_3.runs/impl_1/ALU32_top.vdi
+# Journal file: C:/Users/lizheng/Desktop/VivadoLab/LAB3/project_3/project_3.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source ALU32_top.tcl -notrace
